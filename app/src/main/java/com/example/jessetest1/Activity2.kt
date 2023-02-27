@@ -17,9 +17,7 @@ class Activity2 : AppCompatActivity() {
 
         //get string type data from previous activity, access with same name key
         val bundle: Bundle? = intent.extras
-
-        if (bundle!!.getString("playerName")!!.isNotEmpty()){
-            bind.welcomePlayerText.text = "Welcome ${bundle.getString("playerName")}, prepare to be amazed"
-        }
+        val welcomeText = "Welcome ${bundle!!.getString("playerName")}, prepare to be amazed!"
+        bind.welcomePlayerText.text = welcomeText
     }
 }
