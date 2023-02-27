@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         bind = ActivityMainBinding.inflate(layoutInflater)
         setContentView(bind.root)
 
-        //this button 'yells' at user with a toast
+        //this button 'yells' at user with a toast.
         bind.yellBtn.setOnClickListener {
             //Log.i("Main Activity .yellBtn","aaaahhhhhHHHH!")
             //show a short toast message
