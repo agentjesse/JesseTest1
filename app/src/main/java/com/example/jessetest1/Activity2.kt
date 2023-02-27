@@ -11,7 +11,7 @@ class Activity2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         //setContentView(R.layout.activity_2)
-        //below is for the recent View Binding feature
+        //below is for the recent View Binding feature.
         bind = Activity2Binding.inflate(layoutInflater)
         setContentView(bind.root)
 
